@@ -3,7 +3,8 @@ h1{
     background-color: tomato;
 }
 
-div2{
-    height: 100px;
-    background-color: crimson;
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger   ;
 }

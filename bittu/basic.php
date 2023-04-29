@@ -15,6 +15,8 @@
 </div>
 
 <?php
+
+            define('pi',3.14);
             echo "<h2>hello world<h2>";
             //this is comment
 
@@ -64,9 +66,33 @@
             echo var_dump($tt);
             echo "<br><hr size=\"5\" color=\"red\">";
 
-            $tt=(true and true);
+            $tt=(true or true);
             echo var_dump($tt);
             echo "<br><hr size=\"5\" color=\"red\">";
+
+            $tt=(true xor true);
+            echo var_dump($tt);
+            echo "<br><hr size=\"5\" color=\"red\">";
+
+            echo "<h1> Data Types </h1>";
+
+            $str="This is String ";
+            echo $str;
+            echo var_dump($str);
+            echo "<br>";
+            echo "<br><hr size=\"5\" color=\"red\">";
+
+            $str=10.2;
+            echo $str;
+            echo var_dump($str);
+            echo "<br>";
+            echo "<br><hr size=\"5\" color=\"red\">";
+
+            echo " pi ";
+            echo pi;
+
+
+
 
 ?>
 
