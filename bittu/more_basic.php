@@ -177,6 +177,8 @@
      $len=strlen($ss);
 
      echo "<br>Length of string ".$len." ok <br>";
+     echo "<br>Words of string ".str_word_count($ss)." ok <br>";
+     echo "<br>position of string ".strpos($ss,'my')." ok <br>";
     
 ?>
 
